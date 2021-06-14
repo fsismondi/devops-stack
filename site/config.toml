@@ -97,7 +97,7 @@ weight = 1
 [[menu.main]]
 name = "GitHub"
 pre = "<i class='fab fa-github'></i> "
-url = "https://github.com/camptocamp/devops-stack"
+url = "https://github.com/fsismondi/devops-stack"
 weight = 2
 
 [[menu.main]]
@@ -142,7 +142,7 @@ url = "docs"
 
 [[menu.footer_right]]
 name = "Sources"
-url = "https://github.com/camptocamp/devops-stack"
+url = "https://github.com/fsismondi/devops-stack"
 
 #[[menu.footer_right]]
 #name = "FAQ"

@@ -123,13 +123,13 @@ jobs:
 
       - name: Terraform Apply
         env:
-          TF_VAR_repo_url: ${{ github.server_url }}/camptocamp/devops-stack.git
+          TF_VAR_repo_url: ${{ github.server_url }}/fsismondi/devops-stack.git
           TF_VAR_target_revision: ${{ github.base_ref }}
         run: terraform apply --auto-approve
 
       - name: Terraform Plan
         env:
-          TF_VAR_repo_url: ${{ github.server_url }}/camptocamp/devops-stack.git
+          TF_VAR_repo_url: ${{ github.server_url }}/fsismondi/devops-stack.git
           TF_VAR_target_revision: ${{ github.base_ref }}
         run: terraform plan --detailed-exitcode -no-color
 
