@@ -12,7 +12,7 @@ spec:
     id: kubernetes
     realm: kubernetes
     enabled: true
-    displayName: Kubernetes Realm
+    displayName: "Kubernetes Realm"
   instanceSelector:
     matchLabels:
       app: sso
