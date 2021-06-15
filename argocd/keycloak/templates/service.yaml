@@ -4,8 +4,7 @@ kind: Service
 metadata:
   name: keycloak-ingress
   {{- with .Values.service.annotations }}
-  annotations:
-    {{- toYaml . | nindent 4 }}
+  annotations: {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
   type: ClusterIP
